@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Application</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><label for="name">Adı</label></td>
+        <td><pre></pre></td>
+        <td><input type="text" placeholder="Ad" id="name" required /></td>
+        <td>&nbsp; &nbsp; &nbsp; &nbsp;</td>
+        <td><label for="hobies">Hobiler</label></td>
+        <td></td>
+        <td rowspan="2">
+          <input type="checkbox" id="football" />
+          <label for="football">Futbol</label>
+          <br />
+          <input type="checkbox" id="volleyball" />
+          <label for="volleyball">Voleybol</label>
+          <br />
+          <input type="checkbox" id="basketball" />
+          <label for="basketball">Basketbol</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="lastname">Soyadı</label></td>
+        <td></td>
+        <td>
+          <input type="text" placeholder="Soyad" id="lastname" required />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Cinsiyet</label></td>
+        <td></td>
+        <td>
+          <input type="radio" id="male" name="gender" checked />
+          <label for="male">Bay</label>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <input type="radio" id="female" name="gender" />
+          <label for="female">Bayan</label>
+        </td>
+        <td></td>
+        <td><label for="profile-picture">Profil Fotoğrafı</label></td>
+        <td></td>
+        <td><input type="file" id="profile-picture" /></td>
+      </tr>
+      <tr>
+        <td><label for="cities">İl</label></td>
+        <td></td>
+
+        <td>
+          <select name="cities" id="cities">
+            <option value="00" selected disabled>İl Seçiniz</option>
+            <option value="01">Adana</option>
+            <option value="02">Adıyaman</option>
+            <option value="03">Afyon</option>
+            <option value="04">Ağrı</option>
+            <option value="05">Amasya</option>
+            <option value="06">Ankara</option>
+            <option value="07">Antalya</option>
+            <option value="08">Artvin</option>
+            <option value="09">Aydın</option>
+            <option value="10">Balıkesir</option>
+            <option value="11">Bilecik</option>
+            <option value="12">Bingöl</option>
+            <option value="13">Bitlis</option>
+            <option value="14">Bolu</option>
+            <option value="15">Burdur</option>
+            <option value="16">Bursa</option>
+            <option value="17">Çanakkale</option>
+            <option value="18">Çankırı</option>
+            <option value="19">Çorum</option>
+            <option value="20">Denizli</option>
+            <option value="21">Diyarbakır</option>
+            <option value="22">Edirne</option>
+            <option value="23">Elazığ</option>
+            <option value="24">Erzincan</option>
+            <option value="25">Erzurum</option>
+            <option value="26">Eskişehir</option>
+            <option value="27">Gaziantep</option>
+            <option value="28">Giresun</option>
+            <option value="29">Gümüşhane</option>
+            <option value="30">Hakkari</option>
+            <option value="31">Hatay</option>
+            <option value="32">Isparta</option>
+            <option value="33">Mersin</option>
+            <option value="34">İstanbul</option>
+            <option value="35">İzmir</option>
+            <option value="36">Kars</option>
+            <option value="37">Kastamonu</option>
+            <option value="38">Kayseri</option>
+            <option value="39">Kırklareli</option>
+            <option value="40">Kırşehir</option>
+            <option value="41">Kocaeli</option>
+            <option value="42">Konya</option>
+            <option value="43">Kütahya</option>
+            <option value="44">Malatya</option>
+            <option value="45">Manisa</option>
+            <option value="46">Kahramanmaraş</option>
+            <option value="47">Mardin</option>
+            <option value="48">Muğla</option>
+            <option value="49">Muş</option>
+            <option value="50">Nevşehir</option>
+            <option value="51">Niğde</option>
+            <option value="52">Ordu</option>
+            <option value="53">Rize</option>
+            <option value="54">Sakarya</option>
+            <option value="55">Samsun</option>
+            <option value="56">Siirt</option>
+            <option value="57">Sinop</option>
+            <option value="58">Sivas</option>
+            <option value="59">Tekirdağ</option>
+            <option value="60">Tokat</option>
+            <option value="61">Trabzon</option>
+            <option value="62">Tunceli</option>
+            <option value="63">Şanlıurfa</option>
+            <option value="64">Uşak</option>
+            <option value="65">Van</option>
+            <option value="66">Yozgat</option>
+            <option value="67">Zonguldak</option>
+            <option value="68">Aksaray</option>
+            <option value="69">Bayburt</option>
+            <option value="70">Karaman</option>
+            <option value="71">Kırıkkale</option>
+            <option value="72">Batman</option>
+            <option value="73">Şırnak</option>
+            <option value="74">Bartın</option>
+            <option value="75">Ardahan</option>
+            <option value="76">Iğdır</option>
+            <option value="77">Yalova</option>
+            <option value="78">Karabük</option>
+            <option value="79">Kilis</option>
+            <option value="80">Osmaniye</option>
+            <option value="81">Düzce</option>
+          </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><label for="email">Eposta</label></td>
+        <td></td>
+        <td><input type="email" placeholder="abc@example.com" id="email" /></td>
+        <td></td>
+        <td><label for="birth-day">Doğum Tarihi</label></td>
+        <td></td>
+        <td><input type="date" /></td>
+      </tr>
+      <tr>
+        <td><label for="personel-web-site">Kişisel Site</label></td>
+        <td></td>
+        <td>
+          <input
+            type="url"
+            placeholder="www.example.com"
+            id="personel-web-site"
+          />
+        </td>
+        <td></td>
+        <td><label for="address">Adres</label></td>
+        <td></td>
+        <td rowspan="2">
+          <textarea name="" id="" cols="23" rows="4"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="telephone-number">Telefon</label></td>
+        <td></td>
+        <td>
+          <input
+            type="tel"
+            placeholder="+x111-111-1111"
+            id="telephone-number"
+          />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          <input type="submit" value="Kaydet" />
+          <input type="reset" value="Temizle" />
+          <input type="button" value="Gönder" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
